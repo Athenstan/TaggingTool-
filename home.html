@@ -1,0 +1,293 @@
+<html>
+    <head>
+          <title>Accents@home Tags</title>
+          <link href="js/styleH.css" rel="stylesheet" />
+           
+     </head>
+     <body>
+        <center>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+          <script src="js/supportH.js"></script>
+		  
+          <div id="container">
+             <a href="https://accentsathome.ca/taggingtool.html"><button id="back" style="float:right;">HOME</button></a>
+            <table>
+                <th colspan="2" bgcolor="#333333"><marquee><img src="js/ac.png" /></marquee></th>
+                <tr>
+                    <td id="info1">
+                        <fieldset>
+                        <legend>Item type</legend>
+                        <input type="radio" id="ir1" class="c" name="item1" value="ir"/> Regular Priced item  &nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="ib1" class="c" name="item1" value="ib"/> <span style='color:red'>NEW TAG  &nbsp;&nbsp;&nbsp</span> 
+                        <input type="radio" id="id1" class="c" name="item1" value="id"/> Discounted item &nbsp;&nbsp; <input type="radio" id="iso1" class="c" name="item1" value="iso"/><span style='color:red'>Floor Model</span>
+                        </fieldset>
+						
+                        Item Name: &nbsp;&nbsp;&nbsp; <input type="text" id="n1"/> <br />
+                        <span id="regular1" class="hide">Regular Price: <input type="text" id="reg1" /> <br /></span>
+                        <span id="discount1" class="hide">MarkDown Price: <input type="text" id="dis1" /> <br /></span>
+                        Sale Price: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="sale1" /> <br /><br />
+                        <div id="trash1" class="trash">
+						Dimensions:
+                        <input type="radio" id="dTypeCm1" name="d1" value="cm"/> cm &nbsp;&nbsp;&nbsp; <input type="radio" id="dTypeInch1" name="d1" value="inch"/> inches &nbsp;&nbsp;&nbsp; <input type="radio" id="dTypeFt1" name="d1" value="ft"/> ft   <br />
+                                    Width<input type="number" id="w1" /> &nbsp;&nbsp;&nbsp;
+                                    Length<input type="number" id="l1" /> &nbsp;&nbsp;&nbsp;
+                                    Height<input type="number" id="h1" />
+                        <fieldset>
+                            <legend>Select what all to add in description</legend>
+                            <input type="checkbox" id="fc1" class="c"/> Features <br />
+                            <textarea rows="5" cols="45" id="f1" class="hide" placeholder="input format: This is a wooden table , hand crafted , so and so"></textarea>
+                            <br />
+                            <input type="checkbox" id="ac1" class="c"/> Availablity <br />
+                            <textarea rows="3" cols="45" id="a1" class="hide" placeholder="input format: 8 x 4 for 699, 6 x 9 for 299 |or| red for 366, blue for 499"></textarea><br />
+                            <input type="checkbox" id="floorc1" class="c"/> Floor Model for sale <br />
+                            <input type="checkbox" id="lastc1" class="c"/> Just one left <br />
+                        </fieldset>
+						</div>
+						
+						
+						<!-- for sold item -->
+						 <span id="s1" class="sss">Invoice Number: &nbsp;&nbsp;&nbsp; <input type="text" id="inv1" /></span> <br /><br />
+						
+                    </td>
+                    <td id="info2">
+                        <fieldset>
+                        <legend>Item type</legend>
+                        <input type="radio" id="ir2" class="c" name="item2" value="ir"/> Regular Priced item  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="ib2" class="c" name="item2" value="ib"/> <span style='color:red'>NEW TAG  &nbsp;&nbsp;&nbsp</span> 
+                        <input type="radio" id="id2" class="c" name="item2" value="id"/> Discounted item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" id="iso2" class="c" name="item2" value="iso"/><span style='color:red'>Floor Model</span>
+                        </fieldset>
+                        Item Name: &nbsp;&nbsp;&nbsp; <input type="text" id="n2"/> <br />
+                        <span id="regular2" class="hide">Regular Price: <input type="text" id="reg2" /> <br /></span>
+                        <span id="discount2" class="hide">MarkDown Price: <input type="text" id="dis2" /> <br /></span>
+            
+                        Sale Price: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="sale2" /> <br /><br />
+						<div id="trash2" class="trash">
+                        Dimensions:
+                        <input type="radio" id="dTypeCm2" name="d2" value="cm"/> cm &nbsp;&nbsp;&nbsp; <input type="radio" id="dTypeInch2" name="d2" value="inch"/> inches &nbsp;&nbsp;&nbsp; <input type="radio" id="dTypeFt2" name="d2" value="ft"/> ft   <br />
+                                    Width<input type="number" id="w2" /> &nbsp;&nbsp;&nbsp;
+                                    Length<input type="number" id="l2" /> &nbsp;&nbsp;&nbsp;
+                                    Height<input type="number" id="h2" />
+                        <fieldset>
+                            <legend>Select what all to add in description</legend>
+                            <input type="checkbox" id="fc2" class="c"/> Features <br />
+                            <textarea rows="5" cols="45" id="f2" class="hide" placeholder="input format: This is a wooden table , hand crafted , so and so"></textarea>
+                            <br />
+                            <input type="checkbox" id="ac2" class="c"/> Availablity <br />
+                            <textarea rows="3" cols="45" id="a2" class="hide" placeholder="input format: 8 x 4 for 699, 6 x 9 for 299 |or| red for 366, blue for 499"></textarea><br />
+                            <input type="checkbox" id="floorc2" class="c"/> Floor Model for sale <br />
+                            <input type="checkbox" id="lastc2" class="c"/> Just one left <br />
+                        </fieldset>
+						</div>
+						
+						
+						<!-- for sold item -->
+						 <span id="s2" class="sss">Invoice Number: &nbsp;&nbsp;&nbsp; <input type="text" id="inv2" /></span> <br /><br />
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td id="info3">
+                        <fieldset>
+                        <legend>Item type</legend>
+                        <input type="radio" id="ir3" class="c" name="item3" value="ir"/> Regular Priced item  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="ib3" class="c" name="item3" value="ib"/> <span style='color:red'>NEW TAG  &nbsp;&nbsp;&nbsp</span> 
+                        <input type="radio" id="id3" class="c" name="item3" value="id"/> Discounted item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="iso3" class="c" name="item3" value="iso"/><span style='color:red'>Floor Model</span>
+                        </fieldset>
+                        Item Name: &nbsp;&nbsp;&nbsp; <input type="text" id="n3"/> <br />
+                        <span id="regular3" class="hide">Regular Price: <input type="text" id="reg3" /> <br /></span>
+                        <span id="discount3" class="hide">MarkDown Price: <input type="text" id="dis3" /> <br /></span>
+                                              
+                        Sale Price: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="sale3" /> <br /><br />
+						<div id="trash3" class="trash">
+                        Dimensions:
+                        <input type="radio" id="dTypeCm3" name="d3" value="cm"/> cm &nbsp;&nbsp;&nbsp; <input type="radio" id="dTypeInch3" name="d3" value="inch"/> inches &nbsp;&nbsp;&nbsp; <input type="radio" id="dTypeFt3" name="d3" value="ft"/> ft <br />
+                                    Width<input type="number" id="w3" /> &nbsp;&nbsp;&nbsp;
+                                    Length<input type="number" id="l3" /> &nbsp;&nbsp;&nbsp;
+                                    Height<input type="number" id="h3" />
+                        <fieldset>
+                            <legend>Select what all to add in description</legend>
+                            <input type="checkbox" id="fc3" class="c"/> Features <br />
+                            <textarea rows="5" cols="45" id="f3" class="hide" placeholder="input format: This is a wooden table , hand crafted , so and so"></textarea>
+                            <br />
+                            <input type="checkbox" id="ac3" class="c"/> Availablity <br />
+                            <textarea rows="3" cols="45" id="a3" class="hide" placeholder="input format: 8 x 4 for 699, 6 x 9 for 299 |or| red for 366, blue for 499"></textarea><br />
+                            <input type="checkbox" id="floorc3" class="c"/> Floor Model for sale <br />
+                            <input type="checkbox" id="lastc3" class="c"/> Just one left <br />
+                        </fieldset>
+						</div>
+						
+						
+						<!-- for sold item -->
+						 <span id="s3" class="sss">Invoice Number: &nbsp;&nbsp;&nbsp; <input type="text" id="inv3" /></span> <br /><br />
+                    </td>
+                    <td id="info4">
+                        <fieldset>
+                        <legend>Item type</legend>
+                        <input type="radio" id="ir4" class="c" name="item4" value="ir"/> Regular Priced item  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="ib4" class="c" name="item4" value="ib"/> <span style='color:red'>NEW TAG  &nbsp;&nbsp;&nbsp</span> 
+                        <input type="radio" id="id4" class="c" name="item4" value="id"/> Discounted item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="iso4" class="c" name="item4" value="iso"/><span style='color:red'>Floor Model</span>
+                        </fieldset>
+                        Item Name: &nbsp;&nbsp;&nbsp; <input type="text" id="n4"/> <br />
+                        <span id="regular4" class="hide">Regular Price: <input type="text" id="reg4" /> <br /></span>
+                        <span id="discount4" class="hide">MarkDown Price: <input type="text" id="dis4" /> <br /></span>
+                        
+                        Sale Price: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="sale4" /> <br /><br />
+						<div id="trash4" class="trash">
+                        Dimensions:
+                        <input type="radio" id="dTypeCm4" name="d4" value="cm"/> cm &nbsp;&nbsp;&nbsp; <input type="radio" id="dTypeInch4" name="d4" value="inch"/> inches &nbsp;&nbsp;&nbsp; <input type="radio" id="dTypeFt4" name="d4" value="ft"/> ft  <br />
+                                    Width<input type="number" id="w4" /> &nbsp;&nbsp;&nbsp;
+                                    Length<input type="number" id="l4" /> &nbsp;&nbsp;&nbsp;
+                                    Height<input type="number" id="h4" />
+                        <fieldset>
+                            <legend>Select what all to add in description</legend>
+                            <input type="checkbox" id="fc4" class="c"/> Features <br />
+                            <textarea rows="5" cols="45" id="f4" class="hide" placeholder="input format: This is a wooden table , hand crafted , so and so"></textarea>
+                            <br />
+                            <input type="checkbox" id="ac4" class="c"/> Availablity <br />
+                            <textarea rows="3" cols="45" id="a4" class="hide" placeholder="input format: 8 x 4 for 699, 6 x 9 for 299 |or| red for 366, blue for 499"></textarea><br />
+                            <input type="checkbox" id="floorc4" class="c"/> Floor Model for sale <br />
+                            <input type="checkbox" id="lastc4" class="c"/> Just one left <br />
+                        </fieldset>
+						</div>
+						
+						
+						<!-- for sold item -->
+						 <span id="s4" class="sss">Invoice Number: &nbsp;&nbsp;&nbsp; <input type="text" id="inv4" /></span> <br /><br />
+                    </td>
+                </tr>
+            </table><br />
+             <button id="next">Continue</button>
+              
+          </div>
+          
+          <!-- ----------------------------------------------------------------------- -->
+          <div id="pBody">         
+           <table>
+            <tr>
+                <td class="card" id="card1">
+				
+					
+				   <div class="cardS" id="cardSS1"><span id="cardS1"></span><sup class="ssup"><span id="sup1"></span></sup></div>
+                    <div class="cardR" id="cardRR1"><!-- Reg --> <span id="cardR1" class="cardRR"></span></div>
+                    <img src="js/cut.png" id="cut1" class="cut"/>
+                    
+                    <!--For new tag-->
+                    <img src="js/ncut.png" id="ncut1" class="Ncut"/>
+                    <!-- for new floor model -->
+                    <img src="js/ncutB.png" id="ncutB1" class="NcutB"/>
+                    
+                    <div id="cardMM1" class="cardM"><span id="cardM1"></span><sup class="supp"><span id="supM1"></span></sup></div>
+                    
+                    <div id="cardN1" class="cardN"></div>
+                  <div id="cardD1" class="cardD"></div>
+                  <div id="cardF1" class="cardF"></div>
+                  <div id="cardA1" class="cardA"></div>
+                  <div id="cardFL1" class="cardFL"></div>
+                  <div id="cardL1" class="cardL"><img src="js/123.png" class="lOne"/></div>
+                  <img src="js/ac1.png" class="acB" id="acb1"/>
+				  
+				  <img src="js/sold.png" id="soldimg1" class="soldimg"/>
+				  <div class="Scardinvoice" id="ScardF1"></div>
+				   <div class="Scardtext" id="ScardI1"><p>The Floor Model has been sold. Please check with the sales representative regarding the availability of this item.</p></div>
+				   
+				  
+                  
+                </td>
+                
+                <td class="card" id="card2">
+                    <div class="cardS" id="cardSS2"><span id="cardS2"></span><sup class="ssup"><span id="sup2"></span></sup></div>
+                    <div class="cardR" id="cardRR2"> <span id="cardR2" class="cardRR"></span></div>
+                    <img src="js/cut.png" id="cut2" class="cut"/>
+                    
+                    <img src="js/ncut.png" id="ncut2" class="Ncut"/>
+                    <!-- for new floor model -->
+                    <img src="js/ncutB.png" id="ncutB2" class="NcutB"/>
+                    
+                    <div id="cardMM2" class="cardM"><span id="cardM2"></span><sup class="supp"><span id="supM2"></span></sup></div>
+                    
+                    <div id="cardN2" class="cardN"></div>
+                  <div id="cardD2" class="cardD"></div>
+                  <div id="cardF2" class="cardF"></div>
+                  <div id="cardA2" class="cardA"></div>
+                  <div id="cardFL2" class="cardFL"></div>
+                  <div id="cardL2" class="cardL"> <img src="js/123.png" class="lOne"/> </div>
+                  <img src="js/ac1.png" class="acB" id="acb2"/>
+				  
+				  <img src="js/sold.png" id="soldimg2" class="soldimg"/>
+				  <div class="Scardinvoice" id="ScardF2"></div>
+				   <div class="Scardtext" id="ScardI2"><p>The Floor Model has been sold. Please check with the sales representative regarding the availability of this item.</p></div>
+				   
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="card" id="card3">
+                    <div class="cardS" id="cardSS3"><span id="cardS3"></span><sup class="ssup"><span id="sup3"></span></sup></div>
+                    <div class="cardR" id="cardRR3"><span id="cardR3" class="cardRR"></span></div>
+                    <img src="js/cut.png" id="cut3" class="cut"/>
+                    
+                    <img src="js/ncut.png" id="ncut3" class="Ncut"/>
+                    <!-- for new floor model -->
+                    <img src="js/ncutB.png" id="ncutB3" class="NcutB"/>
+                    
+                    <div id="cardMM3" class="cardM"><span id="cardM3"></span><sup class="supp"><span id="supM3"></span></sup></div>
+                    
+                    <div id="cardN3" class="cardN"></div>
+                  <div id="cardD3" class="cardD"></div>
+                  <div id="cardF3" class="cardF"></div>
+                  <div id="cardA3" class="cardA"></div>
+                  <div id="cardFL3" class="cardFL"></div>
+                  <div id="cardL3" class="cardL"><img src="js/123.png" class="lOne"/></div>
+                  <img src="js/ac1.png" class="acB" id="acb3"/>
+				  
+				  <img src="js/sold.png" id="soldimg3" class="soldimg"/>
+				  <div class="Scardinvoice" id="ScardF3"></div>
+				   <div class="Scardtext" id="ScardI3"><p>The Floor Model has been sold. Please check with the sales representative regarding the availability of this item.</p></div>
+				   
+                </td>
+                
+                <td class="card" id="card4">
+                    <div class="cardS" id="cardSS4"><span id="cardS4"></span><sup class="ssup"><span id="sup4"></span></sup></div>
+                    <div class="cardR" id="cardRR4"> <span id="cardR4" class="cardRR"></span></div>
+                    <img src="js/cut.png" id="cut4" class="cut"/>
+                    
+                    
+                    <img src="js/ncut.png" id="ncut4" class="Ncut"/>
+                    <!-- for new floor model -->
+                    <img src="js/ncutB.png" id="ncutB4" class="NcutB"/>
+                    
+                    <div id="cardMM4" class="cardM"><span id="cardM4"></span><sup class="supp"><span id="supM4"></span></sup></div>
+                    
+                    <div id="cardN4" class="cardN"></div>
+                  <div id="cardD4" class="cardD"></div>
+                  <div id="cardF4" class="cardF"></div>
+                  <div id="cardA4" class="cardA"></div>
+                  <div id="cardFL4" class="cardFL"></div>
+                  <div id="cardL4" class="cardL"><img src="js/123.png" class="lOne"/></div>
+                  <img src="js/ac1.png" class="acB" id="acb4"/>
+				  
+				  <img src="js/sold.png" id="soldimg4" class="soldimg"/>
+				  <div class="Scardinvoice" id="ScardF4"></div>
+				   <div class="Scardtext" id="ScardI4"><p>The Floor Model has been sold. Please check with the sales representative regarding the availability of this item.</p></div>
+				   
+                </td>
+            </tr>
+           </table>
+           <button id="print">Print/Save</button>
+           <button id="review">Review</button>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </center>   
+         
+    </body>
+</html>

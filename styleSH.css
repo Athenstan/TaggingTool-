@@ -1,0 +1,98 @@
+ marquee img{
+        height: 90px;
+        width: 550px;
+ }
+
+ body
+{
+    background: url('bb.jpg');
+    background-position: left;
+    background-size: cover;
+    width: 8.5in;
+    margin-left: 0.6cm;
+    margin-right: 0.5cm;
+    margin-top: 1.1cm;
+    margin-bottom: 1.2cm;
+}
+ button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#dispT
+{
+   /* border-spacing: 33px 0px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: 0px; 
+    padding-left: 0px;
+}
+.ticket
+{
+    padding-top: 12.5px;
+    line-height: 1.124em;
+}
+
+#dispT tr:first-child {
+  
+}
+
+#dispT tr:last-child {
+    padding-right: 0px;
+    margin-right: 0px;
+    }
+
+.itemPrice
+{ 
+    color: Red;
+    font-weight: bold;
+    font-size: large;
+}
+
+td
+{
+ width: 4.445cm;
+ padding-right: 35px;
+ height: 0.495in;
+}
+
+
+.cellD
+{   border: none;
+    border-width: 0px;
+    background: url('q.png');
+    background-size: 100% 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 0.48in;
+    width: 4.445cm;
+    text-align: center;
+} 
+@media print {
+            body {-webkit-print-color-adjust: exact;}
+            #print
+            {
+                display: none;    
+            }
+            #review
+            {
+                display: none;
+            }
+          }
+          @page {
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-top: 0px;
+              margin-bottom: 0px;
+              -webkit-print-color-adjust: exact;
+          }
+          
