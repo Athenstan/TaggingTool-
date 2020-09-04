@@ -1,0 +1,373 @@
+
+ <h1 class="form-title">Bi-Weekly Report</h1>
+ 
+		<form action="WRsupport.php" method="post">
+	
+ Select Start Date :
+<input type="date" id="startD" name="startD">
+<button onclick="myFunction();">Continue</button>
+  
+	
+			
+		<select id="empName" name="empName" class="emp">
+        <option value=""></option>
+        <option value="Karim">Karim</option>
+        <option value="Parth">Parth</option>
+        <option value="Aman">Aman</option>
+        <option value="Jasmine">Jasmine</option>
+        <option value="Karl">Karl</option>
+        <option value="Sandeep">Sandeep</option>
+        <option value="Saqib">Saqib</option>
+        <option value="Sunny">Sunny</option>
+        <option value="Tom">Tom</option>
+        <option value="Karan">Karan</option>
+        <option value="Sophia">Sophia</option>
+        <option value="Bev">Bev</option>
+        <option value="Rose">Rose</option>
+        <option value="Sima">Sima</option>
+        <option value="Andie">Andie</option>
+        <option value="Arsenio">Arsenio</option>
+		<option value="Daaken">Daaken</option>
+        </select>
+  
+  	<table id="parentTable" style="display:none;">
+    <thead><tr>
+    <th>Date</th><th>Day</th><th>Location</th><th>Posted Schedule</th><th>Schedule Worked</th><th>Breaktime</th><th>Net Sales</th><th>Discounts</th><th>Assembly</th><th>Delivery</th>
+    </tr></thead>
+    <tr id="r1">
+        <td><input id="c1r1" class="c1" ></input></td>
+        <td><input id="c2r1" class="c2"></input></td>
+        <td><select id="c3r1" class="c3">
+        <option value=""></option>
+        <option value="BTC">BTC</option>
+        <option value="TMM">TMM</option>
+        <option value="CTC">CTC</option>
+        <option value="RC">RC</option>
+        </select></td>
+        <td><input id="c4r1" class="c4"></input></td>
+        <td><input id="c5r1" class="c5"></input>
+        Same as posted :<input type="checkbox" id="checkR1" onclick="if(this.checked){scheduleWorkedCheckbox();}"></input>
+        </td>
+        <td><input id="c6r1" class="c6"></input></td>
+        <td><input id="c7r1" class="c7"></input></td>
+        <td><input id="c8r1" class="c8"></input></td>
+        <td><input id="c9r1" class="c9"></input></td>
+        <td><input id="c10r1" class="c10"></input></td>
+    </tr>
+    <tr id="r2">
+        <td><input id="c1r2" class="c1" ></input></td>
+        <td><input id="c2r2" class="c2"></input></td>
+        <td><select id="c3r2" class="c3">
+        <option value=""></option>
+        <option value="BTC">BTC</option>
+        <option value="TMM">TMM</option>
+        <option value="CTC">CTC</option>
+        <option value="RC">RC</option>
+        </select></td>
+        <td><input id="c4r2" class="c4"></input></td>
+        <td><input id="c5r2" class="c5"></input>
+        Same as posted :<input type="checkbox" id="checkR2" onclick="if(this.checked){scheduleWorkedCheckbox();}"></input></td>
+        <td><input id="c6r2" class="c6"></input></td>
+        <td><input id="c7r2" class="c7"></input></td>
+        <td><input id="c8r2" class="c8"></input></td>
+        <td><input id="c9r2" class="c9"></input></td>
+        <td><input id="c10r2" class="c10"></input></td>
+    </tr>
+    <tr id="r3">
+        <td><input id="c1r3" class="c1" ></input></td>
+        <td><input id="c2r3" class="c2"></input></td>
+        <td><select id="c3r3" class="c3">
+        <option value=""></option>
+        <option value="BTC">BTC</option>
+        <option value="TMM">TMM</option>
+        <option value="CTC">CTC</option>
+        <option value="RC">RC</option>
+        </select></td>
+        <td><input id="c4r3" class="c4"></input></td>
+        <td><input id="c5r3" class="c5"></input>
+        Same as posted :<input type="checkbox" id="checkR3" onclick="if(this.checked){scheduleWorkedCheckbox();}"></input></td>
+        <td><input id="c6r3" class="c6"></input></td>
+        <td><input id="c7r3" class="c7"></input></td>
+        <td><input id="c8r3" class="c8"></input></td>
+        <td><input id="c9r3" class="c9"></input></td>
+        <td><input id="c10r3" class="c10"></input></td>
+    </tr>
+    <tr id="r4">
+        <td><input id="c1r4" class="c1"></input></td>
+        <td><input id="c2r4" class="c2"></input></td>
+        <td><select id="c3r4" class="c3">
+        <option value=""></option>
+        <option value="BTC">BTC</option>
+        <option value="TMM">TMM</option>
+        <option value="CTC">CTC</option>
+        <option value="RC">RC</option>
+        </select></td>
+        <td><input id="c4r4" class="c4"></input></td>
+        <td><input id="c5r4" class="c5"></input>
+        Same as posted :<input type="checkbox" id="checkR4" onclick="if(this.checked){scheduleWorkedCheckbox();}"></input></td>
+        <td><input id="c6r4" class="c6"></input></td>
+        <td><input id="c7r4" class="c7"></input></td>
+        <td><input id="c8r4" class="c8"></input></td>
+        <td><input id="c9r4" class="c9"></input></td>
+        <td><input id="c10r4" class="c10"></input></td>
+    </tr>
+    <tr id="r5">
+        <td><input id="c1r5" class="c1"></input></td>
+        <td><input id="c2r5" class="c2"></input></td>
+        <td><select id="c3r5" class="c3">
+        <option value=""></option>
+        <option value="BTC">BTC</option>
+        <option value="TMM">TMM</option>
+        <option value="CTC">CTC</option>
+        <option value="RC">RC</option>
+        </select></td>
+        <td><input id="c4r5" class="c4"></input></td>
+        <td><input id="c5r5" class="c5"></input>
+        Same as posted :<input type="checkbox" id="checkR5" onclick="if(this.checked){scheduleWorkedCheckbox();}"></input></td>
+        <td><input id="c6r5" class="c6"></input></td>
+        <td><input id="c7r5" class="c7"></input></td>
+        <td><input id="c8r5" class="c8"></input></td>
+        <td><input id="c9r5" class="c9"></input></td>
+        <td><input id="c10r5" class="c10"></input></td>
+    </tr>
+    <tr id="r6">
+        <td><input id="c1r6" class="c1"></input></td>
+        <td><input id="c2r6" class="c2"></input></td>
+        <td><select id="c3r6" class="c3">
+        <option value=""></option>
+        <option value="BTC">BTC</option>
+        <option value="TMM">TMM</option>
+        <option value="CTC">CTC</option>
+        <option value="RC">RC</option>
+        </select></td>
+        <td><input id="c4r6" class="c4"></input></td>
+        <td><input id="c5r6" class="c5"></input>
+        Same as posted :<input type="checkbox" id="checkR6" onclick="if(this.checked){scheduleWorkedCheckbox();}"></input></td>
+        <td><input id="c6r6" class="c6"></input></td>
+        <td><input id="c7r6" class="c7"></input></td>
+        <td><input id="c8r6" class="c8"></input></td>
+        <td><input id="c9r6" class="c9"></input></td>
+        <td><input id="c10r6" class="c10"></input></td>
+    </tr>
+    <tr id="r7">
+        <td><input id="c1r7" class="c1"></input></td>
+        <td><input id="c2r7" class="c2"></input></td>
+        <td><select id="c3r7" class="c3">
+        <option value=""></option>
+        <option value="BTC">BTC</option>
+        <option value="TMM">TMM</option>
+        <option value="CTC">CTC</option>
+        <option value="RC">RC</option>
+        </select></td>
+        <td><input id="c4r7" class="c4"></input></td>
+        <td><input id="c5r7" class="c5"></input>
+        Same as posted :<input type="checkbox" id="checkR7" onclick="if(this.checked){scheduleWorkedCheckbox();}"></input></td>
+        <td><input id="c6r7" class="c6"></input></td>
+        <td><input id="c7r7" class="c7"></input></td>
+        <td><input id="c8r7" class="c8"></input></td>
+        <td><input id="c9r7" class="c9"></input></td>
+        <td><input id="c10r7" class="c10"></input></td>
+    </tr>
+  </table>
+  
+  <div id="d1" style="display:none;" name="data"></div>
+
+  <div id="d2" style="display:none;"> Thankyou, your form has been successfully submitted to Accounts Office.</div>
+  
+  <button onclick="makeArray();" type="submit" name="submit">Submit </button>
+  
+  <div id="testDiv"></div>
+  
+</form>  
+   
+   
+   
+   <script>
+ 
+    
+function makeArray()
+{
+
+	 var tbl = document.getElementById("parentTable");
+     var rCount = tbl.rows.length;
+     var printTable = "";
+	 var tableArr = ["Date","Day","Location","Posted Sched","Workded Sched","Breaktime","$ Net Sales","$ Discounts","$ Assembly","$ Delivery"];
+     var namesList = "";
+     
+     for(var j = 0; j <= 9; j++)
+     {
+     document.getElementById("d1").innerHTML += tableArr[j] + ",";
+     }
+     document.getElementById("d1").innerHTML += "<br>";
+     
+for ( var i = 1; i < rCount; i++ ) 
+	{
+    	tableArr = []; //emptying array at start of every row
+    	tableArr.push(
+        tbl.rows[i].cells[0].children[0].value ,
+        tbl.rows[i].cells[1].children[0].value ,
+        tbl.rows[i].cells[2].children[0].value ,
+        tbl.rows[i].cells[3].children[0].value ,
+        tbl.rows[i].cells[4].children[0].value ,
+        tbl.rows[i].cells[5].children[0].value ,
+        tbl.rows[i].cells[6].children[0].value ,
+        tbl.rows[i].cells[7].children[0].value ,
+        tbl.rows[i].cells[8].children[0].value ,
+        tbl.rows[i].cells[9].children[0].value + "\n"
+    	);
+        
+        document.getElementById("d1").innerHTML += tableArr + "<br>";
+        
+	}
+ 	
+    
+	 
+    document.getElementById("parentTable").style.display = "none";
+    document.getElementById("d2").style.display = "block";
+    
+    
+     
+
+}    
+    
+    
+    
+    
+function myFunction() 
+	{
+    
+    document.getElementById("parentTable").style.display = "block";
+    
+ ////////////////////////////////////////////////////////////////////
+ //////adding date and date to the table after user selection///////
+ 
+var selection = document.getElementById("startD").value; 
+        var curr = new Date(selection);
+        curr.setDate(curr.getDate() - 1); //getting a date prior to the selection as 'i' or else loop will display dates form the next day of selection.
+        let period = [];
+  for (let i = 0; i <= 14; i++)
+  { 
+  let first = curr.getDate() + 1; 
+  let day = new Date(curr.setDate(first)).toISOString().slice(0, 10);
+  period.push(day);
+  
+  var days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+var d = new Date(period[i]);
+var dayName = days[d.getDay()]; // geting day name from date
+  
+  var cell1 = ["c1r1","c1r2","c1r3","c1r4","c1r5","c1r6","c1r7"];
+  var cell2 = ["c2r1","c2r2","c2r3","c2r4","c2r5","c2r6","c2r7"];
+  
+  document.getElementById(cell1[i]).value = period[i];
+  document.getElementById(cell2[i]).value = dayName;
+  }
+//////////////////////////////////////////////////////////////////////    
+  }
+    
+    
+    
+    
+    function scheduleWorkedCheckbox()
+    {
+    	if(document.getElementById("checkR1").checked)
+        {
+         	document.getElementById("c5r1").value = document.getElementById("c4r1").value;
+            document.getElementById("c5r1").disabled = true;
+        }
+        else
+        {
+            document.getElementById("c5r1").disabled = false;
+        } 
+        //////////////////////////////////////////////////
+        if(document.getElementById("checkR2").checked)
+        {
+         	document.getElementById("c5r2").value = document.getElementById("c4r2").value;
+            document.getElementById("c5r2").disabled = true;
+        }
+        else
+        {
+            document.getElementById("c5r2").disabled = false ;
+        } 
+        //////////////////////////////////////////////////
+        if(document.getElementById("checkR3").checked)
+        {
+         	document.getElementById("c5r3").value = document.getElementById("c4r3").value;
+            document.getElementById("c5r3").disabled = true ;
+        }
+        else
+        {
+            document.getElementById("c5r3").disabled = false ;
+        } 
+        //////////////////////////////////////////////////
+        if(document.getElementById("checkR4").checked)
+        {
+         	document.getElementById("c5r4").value = document.getElementById("c4r4").value;
+            document.getElementById("c5r4").disabled = true ;
+        }
+        else
+        {
+            document.getElementById("c5r4").disabled = false ;
+        } 
+        //////////////////////////////////////////////////
+        if(document.getElementById("checkR5").checked)
+        {
+         	document.getElementById("c5r5").value = document.getElementById("c4r5").value;
+            document.getElementById("c5r5").disabled = true ;
+        }
+        else
+        {
+            document.getElementById("c5r5").disabled = false ;
+        } 
+        //////////////////////////////////////////////////
+        if(document.getElementById("checkR6").checked)
+        {
+         	document.getElementById("c5r6").value = document.getElementById("c4r6").value;
+            document.getElementById("c5r6").disabled = true ;
+        }
+        else
+        {
+            document.getElementById("c5r6").disabled = false ;
+        } 
+        //////////////////////////////////////////////////
+        if(document.getElementById("checkR7").checked)
+        {
+         	document.getElementById("c5r7").value = document.getElementById("c4r7").value;
+            document.getElementById("c5r7").disabled = true ;
+        }
+        else
+        {
+            document.getElementById("c5r7").disabled = false ;
+        } 
+        //////////////////////////////////////////////////
+        
+    }
+    
+    
+    
+  /////////////////////TO get the selected Location////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////
+  var loc1 = document.getElementById("c3r1");
+  var location1 = loc1.options[loc1.selectedIndex].value;
+  ////////////////////////////////////////////////////////////////////////////////
+    var loc2 = document.getElementById("c3r2");
+  var location2 = loc2.options[loc2.selectedIndex].value;
+  ////////////////////////////////////////////////////////////////////////////////
+    var loc3 = document.getElementById("c3r3");
+  var location3 = loc3.options[loc3.selectedIndex].value;
+  ////////////////////////////////////////////////////////////////////////////////
+    var loc4 = document.getElementById("c3r4");
+  var location4 = loc4.options[loc4.selectedIndex].value;
+  ////////////////////////////////////////////////////////////////////////////////
+    var loc5 = document.getElementById("c3r5");
+  var location5 = loc5.options[loc5.selectedIndex].value;
+  ////////////////////////////////////////////////////////////////////////////////
+    var loc6 = document.getElementById("c3r6");
+  var location6 = loc6.options[loc6.selectedIndex].value;
+  ////////////////////////////////////////////////////////////////////////////////
+    var loc7 = document.getElementById("c3r7");
+  var location7 = loc7.options[loc7.selectedIndex].value;
+  ////////////////////////////////////////////////////////////////////////////////
+ 
+ 
+</script>
+    

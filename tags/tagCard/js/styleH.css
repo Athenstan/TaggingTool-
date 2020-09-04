@@ -1,0 +1,514 @@
+.pText{
+   font-size: 50px;
+}
+.NcutB
+{
+    position: absolute;
+    top: 353px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 115px;
+	display: block;
+}
+.NcardB {
+   background: url('taggB.jpg') left;  
+   background-size: 92mm 143mm;
+   background-position: right;
+   width: 91mm;
+   position: relative;
+   height: 142mm;
+}
+.NcardSB {
+    color: red;
+    font-size: 116px;
+    top: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-right: 28px;
+    position: absolute;
+    font-family: Bodoni MT;
+    font-weight: bold;
+}
+.NcardRB{
+    font-size: 24px;
+    color: red;
+    top: 348px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-decoration: none !important;
+}
+.NcardNB {
+    color: Black;
+    font-weight: bold;
+    font-size: 28px;
+    top: 372px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-family: Garamond;
+}
+.NssuppB
+{
+    font-size: 30px !important;
+    position: relative;
+    top: 85px;
+    font-weight: 100 !important;
+}
+.NcardDB
+{
+    color: black;
+    font-size: 18px;
+    top: 427px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+.Ncard {
+   background: url('tagg.png') left;  
+   background-size: 92mm 143mm;
+   background-position: right;
+   width: 91mm;
+   position: relative;
+   height: 142mm;
+}
+.NcardS {
+    color: White;
+    font-size: 116px;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-right: 28px;
+    position: absolute;
+    font-family: Bodoni MT;
+    font-weight: bold;
+}
+.NcardR{
+    font-size: 24px;
+    color: white;
+    top: 320px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-decoration: none !important;
+}
+.NcardRR{
+        text-decoration: none !important;
+        }
+.NcardN {
+    color: Black;
+    font-weight: bold;
+    font-size: 28px;
+    top: 340px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-family: Garamond;
+}
+.Nssupp{
+    font-size: 30px !important;
+    position: relative;
+    top: 80px;
+    font-weight: 100 !important;
+}
+.NcardD
+{
+    color: black;
+    font-size: 18px;
+    top: 399px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.NcardF{
+    height: 60px;
+    top: 432px !important;
+    font-size: 18px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-family: Bodoni MT;
+}
+
+.NcardA{
+    height: 30px;
+    font-size: 18px;
+    top: auto !important;
+    bottom: 1% !important;
+    margin-bottom: 2%;
+    color: maroon;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: maroon;
+}
+
+.Ncut
+{
+    position: absolute;
+    top: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 115px;
+	display: block;
+}
+
+
+
+
+
+
+
+
+table td {
+    border: groove;
+    text-align: center;
+    border-color: white;
+}
+button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+body
+{
+    background: url('bb.jpg');
+    background-position: left;
+    background-size: cover;
+}
+.hide {
+    display: none;
+}
+
+.card {
+   background: url('temp.jpg') left;  
+   background-size: 92mm 150mm;
+    width: 91mm;
+    height: 142mm;
+    position: relative;
+}
+.fcard
+{
+    background: url('lp.png') left;  
+    background-size: 94mm 150mm;
+    background-position: right;
+    width: 91mm;
+    height: 142mm;
+    position: relative;
+}
+
+#pBody {
+    height: 297mm;
+    width: 210mm;
+}
+.cardS {
+    color: maroon;
+    font-weight: bolder;
+    font-size: 135px;
+    top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-right: 44px;
+    position: absolute;
+}
+.fcardS
+{
+    color: 	maroon;
+    font-weight: bold;
+    font-size: 75px;
+    top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+    right: 9px;
+    padding-right: 20px;
+    position: absolute;     
+}
+.cut
+{
+    position: absolute;
+    top: 49px;
+    left: auto;
+    right: 15px;
+    height: 60px;
+    width: 165px;
+	display: none;
+}
+.cardM
+{
+    color: Maroon;  
+    font-weight: bolder;
+    font-size: 125px;
+    top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+    right: 5px;
+    padding-right: 64px;
+    position: absolute;
+}
+
+.ssup{
+    font-size: 55px;
+    position: absolute;
+}
+.supp{
+    font-size: 30px;
+    position: absolute;
+}
+.cardR{
+    font-size: 22px;
+    color: maroon;
+    top: 265px;
+    right: 20px; 
+    position: absolute;
+}
+.fcardR
+{
+    font-size: 22px;
+    color: maroon;
+    top: 30px;
+    left: 5px; 
+    position: absolute;
+}
+.cardRR{
+        text-decoration: line-through;
+}
+.cardN {
+    color: Black;
+    font-weight: bold;
+    font-size: 28px;
+    top: 277px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.fcardN
+{
+    color: White;
+    font-weight: bold;
+    font-size: 28px;
+    top: 292px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.cardD {
+    color: black;
+    font-size: 18px;
+    top: 332px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.fcardD
+{
+    color: White;
+    font-size: 18px;
+    top: 341px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.cardF{
+    height: 60px;
+    top: 355px;
+    font-size: 18px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.fcardF{
+    height: 60px;
+    top: 362px;
+    font-size: 18px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.cardA{
+    height: 30px;
+    font-size: 18px;
+    top: 418px;
+    color: maroon;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: maroon;
+}
+.fcardA{
+    height: 30px;
+    font-size: 18px;
+    top: 424px;
+    color: maroon;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: maroon;
+}
+    
+.cardL{
+    position: absolute;
+    top: 407px;
+    right: -10px;
+}
+
+.lOne{
+    height: auto;
+    width: 150px;;
+}
+
+.fcardFL{
+    font-size: 20px;
+    top: 480px;
+    color: maroon;
+
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-weight: bold;
+}
+.cardFL{
+    font-size: 20px;
+    top: 476px;
+    color: maroon;
+
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-weight: bold;
+}
+@media print {
+            body {-webkit-print-color-adjust: exact;}
+            #print
+            {
+                display: none;    
+            }
+            #review
+            {
+                display: none;
+            }
+          }
+          @page {
+              margin-left: 5px;
+              margin-right: 5px;
+              margin-top: 5px;
+              margin-bottom: 5px;
+              margin: 10px;
+              -webkit-print-color-adjust: exact;
+          }
+ marquee
+ {
+    color: white;
+ }
+ .acB
+ {
+    position: absolute;
+    width: 92mm;
+    bottom: 0px;
+    top: auto;
+    height: 18px;
+    left: 0px;
+ }
+ marquee img{
+        height: 90px;
+        width: 550px;
+ }
+ 
+ /* for sold items */
+ .soldimg
+ {
+	 float:left;
+	 position: absolute;
+	 left: -7%;
+	 top: 4%;
+	 width: 50%;
+	 display: none;
+	 
+ }
+.Scardinvoice{
+    height: 30px;
+    font-size: 20px;
+    top: 473px;
+    color: maroon;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: maroon;
+	display: none;
+}
+.Scardtext, .sss, .trash
+{
+	display: none;
+}
+.cardNone
+{
+	background-color: white;  
+    background-size: 94mm 150mm;
+    width: 91mm;
+    height: 142mm;
+    position: relative;
+}

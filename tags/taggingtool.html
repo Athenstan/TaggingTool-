@@ -1,0 +1,172 @@
+<html>
+<head>
+    <link href="tagCard/indexCss.css" rel="stylesheet" />
+    
+    <style>
+            table
+                {
+                    
+                    margin-left: 0px;
+                    padding-top: 1cm;
+                    padding-bottom: 1cm;  
+                    padding-left: 0px;
+                }
+                td
+                {
+                    padding-right: 4.66cm;
+                    height: 1.21cm;
+                }
+                
+                @media print {
+            body {-webkit-print-color-adjust: exact;}
+            #Print
+            {
+                display: none;    
+            }            
+          }
+          @page {
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-top: 0px;
+              margin-bottom: 0px;
+              margin: 0px;
+              -webkit-print-color-adjust: exact;
+          }
+            
+        #tempP
+        {
+            visibility: hidden;
+        }
+		.td1
+		{
+		 float: left;
+		 height: 100%;
+		 margin-left: auto;
+		 margin-right: auto;
+		}
+
+        </style>
+    
+</head>
+<body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function()
+                {
+                    //this is for the other html page for printing template for row numbers      
+                       $(document).on('click', '#Print', function () {
+                      window.print();
+                          });          
+                });
+        
+        
+        function printDiv(divName) {
+            
+            alert('Please insert avery sheet inverted in the printer to get the template printed.');
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+  
+    </script>
+    
+    <center>
+       <div id="homeLogo"><marquee><img src="tagCard/js/ac.png" /></marquee></div>
+       <table>
+	   <h1 class="heat">Select the tagging template to print on.</h1>
+        <tr>
+			 <td class="td1"><img src="tagCard/js/temp.jpg" /> <br /> <a href="tagCard/home.html"><button>Furniture Tags</button></a></td>
+            <td class="td1"><img src="tagCard/js/averyTag.JPG" /> <br /> <a href="averyCode/index.html"><button>Avery Tags</button></a><br/>
+                <button id="Print" onclick="printDiv('tempP');">Print template for your avery sheet</button>
+            
+            </td>  
+        </tr>
+        
+       </table>
+    </center>
+    
+    
+    
+    
+    
+    
+    <!-----------------------------------------------------------------------------------
+    
+    -->
+    
+    <div id="tempP">
+    <table>
+        <tr>
+            <td>1</td><td>1</td><td>1</td><td>1</td>
+        </tr>
+        <tr>
+            <td>2</td><td>2</td><td>2</td><td>2</td>
+        </tr>
+        <tr>
+            <td>3</td><td>3</td><td>3</td><td>3</td>
+        </tr>
+        <tr>
+            <td>4</td><td>4</td><td>4</td><td>4</td>
+        </tr>
+        <tr>
+            <td>5</td><td>5</td><td>5</td><td>5</td>
+        </tr>
+        <tr>
+            <td>6</td><td>6</td><td>6</td><td>6</td>
+        </tr>
+        <tr>
+            <td>7</td><td>7</td><td>7</td><td>7</td>
+        </tr>
+        <tr>
+            <td>8</td><td>8</td><td>8</td><td>8</td>
+        </tr>
+        <tr>
+            <td>9</td><td>9</td><td>9</td><td>9</td>
+        </tr>
+        <tr>
+            <td>10</td><td>10</td><td>10</td><td>10</td>
+        </tr>
+        <tr>
+            <td>11</td><td>11</td><td>11</td><td>11</td>
+        </tr>
+        <tr>
+            <td>12</td><td>12</td><td>12</td><td>12</td>
+        </tr>
+        <tr>
+            <td>13</td><td>13</td><td>13</td><td>13</td>
+        </tr>
+        <tr>
+            <td>14</td><td>14</td><td>14</td><td>14</td>
+        </tr>
+        <tr>
+            <td>15</td><td>15</td><td>15</td><td>15</td>
+        </tr>
+        <tr>
+            <td>16</td><td>16</td><td>16</td><td>16</td>
+        </tr>
+        <tr>
+            <td>17</td><td>17</td><td>17</td><td>17</td>
+        </tr>
+        <tr>
+            <td>18</td><td>18</td><td>18</td><td>18</td>
+        </tr>
+        <tr>
+            <td>19</td><td>19</td><td>19</td><td>19</td>
+        </tr>
+        <tr>
+            <td>20</td><td>20</td><td>20</td><td>20</td>
+        </tr>
+    </table>
+    </div>
+
+    
+    
+    
+</body>
+</html>
